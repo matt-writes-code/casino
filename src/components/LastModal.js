@@ -96,7 +96,7 @@ export default class ModalExample extends React.Component {
 					<Container>
 			<Row>
 				<Col style={center}><Button color="light" href="#">先看看</Button></Col>
-				<Col style={center}><Button color="light" disabled>发送</Button>Remove</Col>
+				<Col style={center}><Button color="light" disabled>发送</Button></Col>
 			</Row>
 		</Container>
 		  </ModalBody>

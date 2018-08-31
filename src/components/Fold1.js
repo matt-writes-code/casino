@@ -1,4 +1,4 @@
-import React from 'react';
+	import React from 'react';
 import ReactDOM from 'react-dom';
 import { Container, Row, Col, Input } from 'reactstrap';
 import {Image} from 'react-bootstrap';
@@ -7,6 +7,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import oneone from '../img/11.jpg';
 
 const center = {
+	display: "block",
+    marginLeft: "auto",
+    marginRight: "auto",
+	marginTop:"5%",
+	marginBottom:"auto",
+};
+
+const center1 = {
   backgroundColor: "none",
   justifyItems: "center",
   alignItems: "center",

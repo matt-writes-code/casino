@@ -4,12 +4,6 @@ import { Container, Row, Col } from 'reactstrap';
 import {Image} from 'react-bootstrap';
 import {Thumbnail} from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
-import a from '../img/img-e95c1d.png';
-import b from '../img/img-eb90bc.png';
-import c from '../img/img-b2cedd.png';
-import d from '../img/img-c4f235.png';
-import e from '../img/img-71a3b8.png';
-import f from '../img/img-1f9b7c.png';
 import ModalA from './ModalA';
 import ModalB from './ModalB';
 import ModalC from './ModalC';
@@ -23,7 +17,8 @@ const center = {
   display: "inline-grid",
   padding: "1%",
   color:"#D4AF37",
-  fontSize:"2em"
+  fontSize:"2em",
+  marginTop:"5%"
 };
 
 const image = {

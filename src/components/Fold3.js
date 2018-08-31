@@ -14,10 +14,12 @@ const center = {
   justifyItems: "center",
   alignItems: "center",
   display: "inline-grid",
+  marginTop:"12%"
 };
 
 const text = {
-  color:"white"
+  color:"white",
+  fontWeight:"bold"
 };
 
 const image = {
@@ -41,56 +43,45 @@ export class Fold3 extends React.Component {
 					<Col  style={center}><Image src={j} style={image} responsive/></Col>
 				</Row>
 			</Col>
-			<Col md="6">
+			
+			<Col md="1"></Col>			
+			
+			<Col md="5" style={center}>
 				<text style={text}>
-				温馨提示:当选择使用财务系统，在正式上线前需充值5万点数（即5万元）。当玩家充值进来，点数增加，当玩家提款出去，点数减少。并且，当点数低于一定阈值，我方会提醒您充值点数，低于最低点数，玩家将无法提款。
+				温馨提示: <br/>当选择使用财务系统，在正式上线前需充值5万点数（即5万元）。当玩家充值进来，点数增加，当玩家提款出去，点数减少。并且，当点数低于一定阈值，我方会提醒您充值点数，低于最低点数，玩家将无法提款。
 				</text>
 				
 	{/* Table */}
-
-<Container>
-	<Row>
-	{/* <Col xs="8" style={{ paddingLeft: 0, paddingRight: 0 }}>
-		 <Table bordered>
+		 <Table style={{ color:"white" }} bordercolor="orange" border="1px solid orange" >
+			<thead bgcolor="orange">
+				<th>项目</th>
+				<th>费率</th>
+				<th>勾选</th>
+			</thead>
+			<tbody >
 				<tr>
-					<td></td>
-					<td></td>
+					<td >银行存款</td>
+					<td>1.20%</td>
+					<td rowspan="5"></td>
 				</tr>
 				<tr>
-					<td></td>
-					<td></td>
+					<td>个人微信</td>
+					<td>3.80%</td>
 				</tr>
 				<tr>
-					<td></td>
-					<td></td>
+					<td>个人支付宝</td>
+					<td>3.80%</td>
 				</tr>
 				<tr>
-					<td></td>
-					<td></td>
+					<td>在线充值</td>
+					<td>0.60%</td>
 				</tr>
 				<tr>
-					<td></td>
-					<td></td>
+					<td>银行提款</td>
+					<td>1%</td>
 				</tr>
-				<tr>
-					<td></td>
-					<td></td>
-				</tr>
-		</Table> 
-		</Col>
-		<Col xs="4" style={{ paddingLeft: 0, paddingRight: 0 }}>
-			<Table bordered>
-				<tr>
-					<td></td>
-				</tr>
-				<tr>
-					<td></td>
-				</tr>
-			</Table>
-		</Col> */}
-	</Row>
-</Container>
-	  
+			</tbody>
+		</Table>
 			</Col>
 		</Row>
       </Container>

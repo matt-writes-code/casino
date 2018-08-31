@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Row } from 'react';
 import {
   Carousel,
   CarouselItem,
@@ -83,7 +83,7 @@ export default class Home extends Component {
       >
         <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
         {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
+        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous}/>
         <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
       </Carousel>
     );

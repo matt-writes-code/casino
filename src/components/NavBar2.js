@@ -17,7 +17,7 @@ import Mid from '../img/img-c49024.png';
 import Right from '../img/img-2c4710.gif';
 import { Link } from "react-router-dom";
 
-export default class NavBar extends React.Component {
+export default class NavBar2 extends React.Component {
   constructor(props) {
     super(props);
 
@@ -35,7 +35,7 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <div>
-		<Navbar style={{ backgroundColor:"black", overflow:"hidden", position:"fixed", zIndex:"1", width:"100%", height:"10%"}} expand="md">
+		<Navbar style={{ backgroundColor:"black", overflow:"hidden", width:"100%", height:"70px"}} expand="md">
           <NavbarBrand href="/"><Link to="/"><img src={Left} height="80px" /></Link></NavbarBrand>
 		  <NavbarBrand ><img src={Mid} /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />

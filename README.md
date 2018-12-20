@@ -1,3 +1,3 @@
 # casino
 
-[Demo](https://zeit.co/matthewcodes/casino/tokdfggxdz)
+[Demo](https://casino-tokdfggxdz.now.sh/)
